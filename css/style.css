@@ -1,0 +1,97 @@
+body {
+	margin: 0;
+}
+
+a {
+	color: green;
+}
+
+a:visited {
+	color: red;
+}
+
+a:hover {
+	color: blue;
+}
+
+a:active {
+	color: black;
+}
+
+.header {
+	background-color: white;
+	width: 100%;
+}
+
+.footer {
+	background-color: #333;
+	color: #cacdd1;
+	font-size: 12px;
+}
+
+.main,
+.footer {
+	padding: 20px;
+}
+
+.nav {
+	background-color: #77787a;
+	padding: 0 20px 0 10px;
+}
+
+.nav a {
+	display: inline-block;
+	color: #fff;
+	padding: 10px;
+	
+	text-decoration: none;
+}
+
+.nav a:hover {
+	text-decoration: underline;
+	
+	background-color: #5e7eb2;
+}
+
+.nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.nav li {
+	display: inline-block;
+}
+
+.fish {
+    float:left;
+    max-height: 120px;
+    max-width: 120px;
+ }
+
+.logo {
+    max-height: 120px;
+    max-width: 120px;
+}
+
+.col1 {
+    width: 33%;
+    display: inline-block;
+}
+.col2 {
+    display: inline-block;
+    left: 200px;
+    width: 34%;
+}
+.col3 {
+    display: inline-block;
+    right: 0;
+}
+
+.footer > col1 {
+ vertical-align: top;
+}
+
+
+
+
